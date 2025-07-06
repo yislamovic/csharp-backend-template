@@ -10,6 +10,8 @@ namespace BackendTemplate.Models
 
         public Post()
         {
+            Title = string.Empty;
+            Content = string.Empty;
             CreatedAt = DateTime.UtcNow;
             UpdatedAt = DateTime.UtcNow;
         }
